@@ -1,0 +1,128 @@
+.cardComponent .card-icon{
+background-color:#a7c7e780;
+color:#0047AB;
+width:100px;
+height:100px;
+display: flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+/* position:fixed; */
+}
+
+.cardComponent .card-icon i{
+font-size:50px;
+}
+
+.sepCard{
+ height: 19rem;
+ text-align: center;
+}
+
+.card{
+    height: 19rem;
+}
+
+.card-titleform{
+margin-bottom:50px;
+font-family: "Poppins";
+font-weight: 700;
+}
+
+.cardComponent .centre{
+    display: flex;
+justify-content:center;
+align-items:center;
+
+}
+.card-content{
+    margin:15px 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-family: "Poppins";
+    font-weight: 700;
+    
+   
+}
+.card-text{
+    background-color:#a7c7e780;
+    height: 22px;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-text i{
+    margin-left: 10px;
+}
+.card-content p{
+    font-size: 12px;
+    margin-top: 3px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.card-title{
+color: #323232;
+font-size: 16px;
+font-weight: 700;
+font-family: "Poppins";
+margin-top:40px;
+text-align: center
+}
+
+.card-content
+.more-card{
+    position:relative;
+}
+
+
+.card-content .sideIcon i{
+    font-size: 24px;
+    font-weight: 400;
+    color:#323232cb;
+}
+
+
+.more-card-section{
+    position:absolute;
+    background-color:#fff;
+    width: 200px;
+    border-radius:5px;
+    padding: 20px 10px;
+    right:0;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.767);
+    font-family: "Poppins";
+}
+
+.more-card-section span{
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.425);
+    padding: 0px 10px;
+    margin-top:20px;
+    padding-bottom:10px;
+    
+}
+
+
+.more-card-section span i{
+    margin-right:10px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.more-card-section .diff {
+color: red !important;
+}
+
+.more-card-section .diff i{
+    color: red !important;
+}
+.more-card-section span p{
+    margin:0 !important;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 14px;
+}
